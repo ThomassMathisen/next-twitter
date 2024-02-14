@@ -1,8 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Feed from "@/components/feed/Feed";
+import Post from "@/components/post/Post";
 
 export default function Home() {
   return (
-   
+    <div>
+      <Post />
+      <Feed />
+    </div>
   );
 }
