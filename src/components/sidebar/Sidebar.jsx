@@ -8,6 +8,7 @@ import {
   MdAccountCircle,
 } from "react-icons/md";
 import MenuLinks from "./menuLinks/menuLinks";
+import Image from "next/image";
 
 const menuItems = [
   {
@@ -55,7 +56,7 @@ const Sidebar = () => {
       <button className={styles.button}>Post</button>
       <div className={styles.profileContainer}>
         <div className={styles.profileImg}>
-          <MdAccountCircle />
+          <Image src="/noavatar.png" alt="" width={36} height={36} />
         </div>
         <div className={styles.userContainer}>
           <div className={styles.username}>

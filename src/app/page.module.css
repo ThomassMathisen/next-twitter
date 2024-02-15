@@ -11,6 +11,7 @@
 
 .content {
   flex: 3;
+  border-left: 1px solid gray;
 }
 
 .side {
