@@ -68,6 +68,7 @@
 
 .trend {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 10px;
 }
@@ -100,6 +101,7 @@
 
 .whoToFollow {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 10px;
 }
