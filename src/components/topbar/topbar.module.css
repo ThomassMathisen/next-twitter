@@ -1,0 +1,29 @@
+.container {
+  height: 75px;
+  border-bottom: 1px solid gray;
+}
+
+.feeds {
+  display: flex;
+  padding: 20px;
+}
+
+.forYou {
+  flex: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.following {
+  flex: 4;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.settings {
+  flex: 0.5;
+  cursor: pointer;
+}

@@ -1,5 +1,4 @@
 .container {
-  margin: 10px;
   height: 100vh;
   position: fixed;
   border-left: 1px solid gray;
@@ -59,7 +58,9 @@
   background-color: rgb(247, 247, 247);
   border-radius: 30px;
 }
-
+.trendTitle {
+  padding-bottom: 20px;
+}
 .trendTopic {
   display: flex;
   flex-direction: column;
@@ -91,6 +92,10 @@
   gap: 10px;
   background-color: rgb(247, 247, 247);
   border-radius: 30px;
+}
+
+.whoToFollowTitle {
+  padding-bottom: 20px;
 }
 
 .whoToFollow {
