@@ -1,0 +1,55 @@
+.container {
+  position: sticky;
+  top: 40px;
+}
+
+.logoContainer {
+  font-size: 48px;
+  margin: 10px 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.list {
+  color: black;
+  font: bold;
+}
+
+.button {
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: skyblue;
+  color: white;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.profileImg {
+  border-radius: 50%;
+  object-fit: cover;
+  font-size: 48px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.userTag {
+  margin-left: 5px;
+}

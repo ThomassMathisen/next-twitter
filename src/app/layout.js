@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import styles from "./page.module.css";
 import Sidebar from "@/components/sidebar/Sidebar";
 import Rightbar from "@/components/rightbar/Rightbar";
 
@@ -14,9 +15,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Sidebar />
-        {children}
-        <Rightbar />
+        <div className={styles.container}>
+          <div className={styles.menu}>
+            <Sidebar />
+          </div>
+          <div className={styles.content}>{children}</div>
+          <div className={styles.side}>
+            <Rightbar />
+          </div>
+        </div>
       </body>
     </html>
   );
