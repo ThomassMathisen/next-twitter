@@ -1,12 +1,12 @@
 import Feed from "@/components/feed/Feed";
-import Post from "@/components/post/Post";
+import Share from "@/components/share/Share";
 import Topbar from "@/components/topbar/Topbar";
 
 export default function Home() {
   return (
     <div>
       <Topbar />
-      <Post />
+      <Share />
       <Feed />
     </div>
   );
