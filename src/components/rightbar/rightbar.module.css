@@ -108,6 +108,8 @@
 
 .imgContainer {
   border-radius: 50%;
+  border: 1px solid black;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -117,7 +119,9 @@
 }
 
 .whoToFollowTag {
-  font-style: italic;
+  font-weight: 400;
+  font-style: 12px;
+  color: rgb(48, 48, 48);
 }
 
 .followButton {

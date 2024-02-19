@@ -13,7 +13,7 @@ const Post = () => {
         <div className={styles.top}>
           <div className={styles.user}>
             <div className={styles.avatarContainer}>
-              <Image src="/noavatar.png" alt="" width={48} height={48} />
+              <Image src="/p1.jpg" alt="" width={48} height={48} />
             </div>
             <span className={styles.username}>Username</span>
             <span className={styles.usertag}>@username</span>

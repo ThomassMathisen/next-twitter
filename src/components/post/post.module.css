@@ -29,6 +29,8 @@
 
 .avatarContainer {
   border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
 }
 
 .middle {

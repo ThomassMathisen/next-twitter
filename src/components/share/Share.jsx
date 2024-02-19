@@ -14,7 +14,7 @@ const Share = () => {
     <div className={styles.container}>
       <div className={styles.top}>
         <div className={styles.imgContainer}>
-          <Image src="/noavatar.png" alt="" width={36} height={36} />
+          <Image src="/p2.jpg" alt="" width={48} height={48} />
         </div>
         <input className={styles.input} placeholder="What's happening?!" />
       </div>

@@ -56,7 +56,7 @@ const Sidebar = () => {
       <button className={styles.button}>Post</button>
       <div className={styles.profileContainer}>
         <div className={styles.profileImg}>
-          <Image src="/noavatar.png" alt="" width={36} height={36} />
+          <Image src="/p1.jpg" alt="" width={48} height={48} />
         </div>
         <div className={styles.userContainer}>
           <div className={styles.username}>

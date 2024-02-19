@@ -1,0 +1,68 @@
+.top {
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.middle {
+  padding: 20px;
+}
+
+.usertag {
+  font-style: 12px;
+  font-weight: 300;
+  color: rgb(53, 53, 53);
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.joinedAt {
+  font-style: 12px;
+  font-weight: 300;
+  color: rgb(53, 53, 53);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  margin: 10px 5px;
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+}
+
+.profilePic {
+  border-radius: 50%;
+  border: 2px solid black;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.followingContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px;
+  cursor: pointer;
+}
