@@ -1,6 +1,6 @@
-import styles from "./loginPage.module.css";
+import styles from "./modal.module.css";
 
-const LoginPage = () => {
+const Modal = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Login</h1>
@@ -17,4 +17,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Modal;

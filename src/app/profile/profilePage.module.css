@@ -1,3 +1,12 @@
+.wrapper {
+  display: flex;
+}
+
+.container {
+  flex: 3;
+  border-left: 1px solid gray;
+}
+
 .top {
   object-fit: cover;
 }
@@ -65,4 +74,15 @@
   font-weight: 500;
   margin: 10px;
   cursor: pointer;
+}
+
+.sidebar {
+  flex: 1.5;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.rightbar {
+  flex: 2;
 }

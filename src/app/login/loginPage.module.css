@@ -1,103 +1,42 @@
 .container {
-  display: flex;
-  margin: 40px;
-}
-
-.left {
-  flex: 1;
-}
-
-.logoContainer {
-  font-size: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.right {
-  flex: 1;
-}
-
-.header {
-  font-size: 72px;
-  margin-bottom: 50px;
-}
-
-.subheader {
-  font-size: 40px;
-  margin-bottom: 50px;
-}
-
-.buttonContainer {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-}
-
-.or {
-  display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
 }
 
-.googleButton,
-.appleButton {
-  padding: 20px;
-  margin: 5px;
+.form {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  cursor: pointer;
+  gap: 30px;
+}
+
+.form input {
+  width: 100%;
+  padding: 30px;
+  border: 2px solid skyblue;
+  border-radius: 5px;
   background-color: white;
   color: black;
-  width: 100%;
-  border-radius: 30px;
-  border: 1px solid black;
-  font-size: 18px;
-  font-weight: bold;
 }
 
-.createButton {
-  padding: 20px;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  cursor: pointer;
+.form button {
+  width: 100%;
+  padding: 30px;
   background-color: skyblue;
   color: white;
-  width: 100%;
-  border-radius: 30px;
   border: none;
-  font-size: 18px;
-}
-
-.signinTitle {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.signinButton {
-  margin-top: 20px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
   cursor: pointer;
-  background-color: white;
-  color: skyblue;
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 30px;
-  font-size: 18px;
+  border-radius: 5px;
   font-weight: bold;
-}
-
-.terms {
-  padding: 10px;
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 16px;
 }

@@ -1,19 +1,111 @@
 .container {
   display: flex;
+  padding: 100px;
+  width: 100vw;
+  height: 100vh;
 }
 
-.menu {
-  flex: 1.5;
+.left {
+  flex: 1;
   display: flex;
-  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer {
+  font-size: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.header {
+  font-size: 72px;
+  margin-bottom: 50px;
+}
+
+.subheader {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.or {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.googleButton,
+.appleButton {
+  padding: 15px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  width: 45%;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.createButton {
+  padding: 15px;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: skyblue;
+  color: white;
+  width: 45%;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.content {
-  flex: 3;
-  border-left: 1px solid gray;
+.signinTitle {
+  font-size: 24px;
+  margin-top: 50px;
+  font-weight: bold;
 }
 
-.side {
-  flex: 2;
+.signinButton {
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: skyblue;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.terms {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 300;
 }

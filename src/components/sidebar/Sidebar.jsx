@@ -14,7 +14,7 @@ import Link from "next/link";
 const menuItems = [
   {
     title: "Home",
-    path: "/",
+    path: "/home",
     icon: <MdHomeFilled />,
   },
   {
