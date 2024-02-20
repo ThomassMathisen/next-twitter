@@ -9,6 +9,7 @@ import {
 } from "react-icons/md";
 import MenuLinks from "./menuLinks/menuLinks";
 import Image from "next/image";
+import Link from "next/link";
 
 const menuItems = [
   {
@@ -42,9 +43,9 @@ const Sidebar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logoContainer}>
-        <span>
+        <Link href="/">
           <FaXTwitter />
-        </span>
+        </Link>
       </div>
       <ul className={styles.linksContainer}>
         {menuItems.map((item) => (
